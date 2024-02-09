@@ -2,7 +2,6 @@ def bubble(ls: list) -> list:  # сортування методом бульб�
     len_list = len(ls)
     for i in range(len_list):
         for r in range(len_list - i - 1):
-            print(r)
             if ls[r] > ls[r + 1]:
                 ls[r], ls[r + 1] = ls[r + 1], ls[r]
     return ls  # return sorted(ls)
