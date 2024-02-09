@@ -5,7 +5,7 @@ def bubble(ls: list) -> list:  #сортування методом бульба
             print(r)
             if ls[r] > ls[r + 1]:
                 ls[r], ls[r + 1] = ls[r + 1], ls[r]
-    return ls
+    return ls  #return sorted(ls)
 
 
 def sum_list(ls: list) -> int:  #знаходження суми списку
